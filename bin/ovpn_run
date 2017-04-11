@@ -95,4 +95,4 @@ if [ $? = 0 ]; then
 fi
 
 echo "Running 'openvpn ${ARGS[@]} ${USER_ARGS[@]}'"
-exec strace openvpn --verb 11 ${ARGS[@]} ${USER_ARGS[@]}
+exec openvpn --verb 11 ${ARGS[@]} ${USER_ARGS[@]}
